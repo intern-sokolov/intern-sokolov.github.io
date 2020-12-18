@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/kotik.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Портфолио @oskarmenrus</title>
+</head>
+<body>
+<header class="header">
+    <img class="header__logo" src="images/crutch.png" alt="Личный логотип разработчика">
+    <h1 class="header__title header--red-color header--text-align-center">Самое шикарное портфолио веб-разработчика в
+        интернете</h1>
+    <br>
+    <button class="header__button">Ля какая красивая кнопка</button>
+    <p class="header__warning-text header--red-color header--text-align-center">Можно тыкать до посинения (не работает,
+        потому что сказали сделать только разметку)</p>
+    <hr class="header__separator">
+    <br>
+    <h2 class="header__title header--red-color header--text-align-center">Соколов Данил Андреевич икея oskarmenrus</h2>
+    <br>
+    <hr class="header__separator">
+    <h3 class="header__title header--red-color header--text-align-center">PHP/Python разработчик</h3>
+    <h4 class="header__title header--red-color header--text-align-center">Гений</h4>
+    <h5 class="header__title header--red-color header--text-align-center">Миллионер</h5>
+    <h6 class="header__title header--red-color header--text-align-center">(нет)</h6>
+    <hr class="header__separator">
+</header>
+<section class="about">
+    <h2 class="about__title">Тут шутки кончились, и, началась section эбаут МИ</h2>
+    <p class="about__text">Блок с таблицей моих скилов и немного обо мне :)</p>
+    <table class="about__table">
+        <tr class="about__table-string">
+            <th class="about__table-title">Во-первых:</th>
+            <th class="about__table-title">Во-вторых:</th>
+            <th class="about__table-title">В третьих:</th>
+        </tr>
+        <tr class="about__table-string">
+            <td class="about__table-cell"><img class="about__table-img" src="images/deb.jpg" alt="Таблицы круто"></td>
+            <td class="about__table-cell"><img class="about__table-img" src="images/dead_inside.jpg"
+                                               alt="Это мой дед инсайд"></td>
+            <td class="about__table-cell"><img class="about__table-img" src="images/nomem.jpg" alt="Обо мне отменяется">
+            </td>
+        </tr>
+        <tr class="about__table-string">
+            <td class="about__table-cell">Это люди, которые в 2020 используют таблицы для верстки.</td>
+            <td class="about__table-cell">Если долго писать код, то можно выгореть и стать мертвым внутри.</td>
+            <td class="about__table-cell">Я Вас обманул, секции обо мне не будет :)</td>
+        </tr>
+    </table>
+    <hr class="about__separator">
+</section>
+<section class="portfolio">
+    <h2 class="portfolio__title portfolio--text-align-center">Собственно, тут будут представлены мои работы</h2>
+    <div class="works">
+        <p class="works__separator"><strong>------------------------------------------------------------</strong></p>
+        <p class="works__work-title"><strong>Шедевр №1</strong></p>
+        <p class="works__description">Сайт для одного банка.</p>
+        <img class="works__image" src="images/rncb.png" alt="РНКБ - круто.">
+        <br>
+        <a class="works__link" href="https://www.rncb.ru/fizicheskkim-litsam/">Посмотреть можно по этой ссылке.</a>
+        <p class="works__separator"><strong>------------------------------------------------------------</strong></p>
+    </div>
+    <div class="works">
+        <p class="works__work-title">Работа №2</p>
+        <p class="works__separator"><strong>------------------------------------------------------------</strong></p>
+    </div>
+    <div class="works">
+        <p class="works__work-title">Работа №3</p>
+        <p class="works__separator"><strong>------------------------------------------------------------</strong></p>
+    </div>
+    <div class="works">
+        <p class="works__description">Работа №n и так далее, аналогично примеру выше ...</p>
+        <p class="works__description">(к сожалению, слайдер на чистом HTML еще не придумали, или я плохо искал, но
+            выглядело бы здорово :)</p>
+    </div>
+    <hr class="portfolio__separator">
+</section>
+<section class="contacts">
+    <h2 class="contacts__title">Секция с моими контактами</h2>
+    <p class="contacts__description">Это конфиденциальная информация, поэтому моих данных тут не будет :(</p>
+    <p class="contacts__description">Могу дать номер бывшей: <strong>+7 (978) 555 35 35</strong></p>
+    <br>
+    <p class="contacts__description">Оставьте Ваш номер телефона и я Вам обязательно не перезвоню!</p>
+    <form class="contacts__form" action="#">
+        <fieldset class="contacts__fieldset">
+            <span class="contacts__text">Введите данные Вашей банковской карты:</span>
+            <br>
+            <br>
+            <label class="contacts__label">Номер карты:<br><input class="contacts__input" type="text"></label>
+            <br>
+            <label class="contacts__label">ФИО владельца:<br><input class="contacts__input" type="text"></label>
+            <br>
+            <label class="contacts__label">Три цифры на обороте:<br><input class="contacts__input" type="text"></label>
+            <br>
+        </fieldset>
+        <br>
+        <input class="contacts__submit" type="submit">
+    </form>
+    <br>
+    <p class="contacts__description">Боже, как красиво...</p>
+    <hr class="contacts__separator">
+</section>
+<footer class="footer">
+    <p class="footer_text"><strong>&copy; 2020 Соколов Данил Андреевич - профессиональный разработчик и НЕ
+        клоун.</strong></p>
+</footer>
+</body>
+</html>
